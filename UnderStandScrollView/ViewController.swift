@@ -32,9 +32,10 @@ class ViewController: UIViewController {
         mainView.addSubview(blueView)
         mainView.addSubview(yellowView)
         
-//        var bounds = self.mainView.bounds
-//        bounds.origin = CGPoint(x: 0, y: 100)
-//        self.mainView.bounds = bounds
+        //MARK: change Bounds mainView
+        var bounds = self.mainView.bounds
+        bounds.origin = CGPoint(x: 0, y: 100)
+        self.mainView.bounds = bounds
     }
 
     override func didReceiveMemoryWarning() {
